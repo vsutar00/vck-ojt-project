@@ -1,0 +1,24 @@
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px;
+}
+.hero-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 90%;
+}
+.page-container{
+background-image: url("/images/college-banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
