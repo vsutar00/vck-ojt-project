@@ -1,24 +1,103 @@
+
 .content {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 100px;
+    background-color: white;
+  
+}
+.main{
+    background-color: #fff;
+    padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+  margin: 2rem auto;
+  height: 225vh;
+}
+h2{
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
 }
 .hero-overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
     color: #fff;
     text-align: center;
-    width: 90%;
+    padding: 30px 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5)!important;
 }
 .page-container{
+
+    position:relative;
 background-image: url("/images/college-banner.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
     width: 100%;
-    object-fit: fill;
+    overflow: hidden;
+    background-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+body{
+    background-color:#52d2d2
+
+}
+.left{
+    float:left;
+    width:49%;
+    height:200px;
+    object-fit:cover;
+    display:inline;
+    box-shadow:0 4px 2px rgba(0,0,0,0.1);
+    border-radius: 10px;
+
+
+}
+.right{
+    float:right;
+    width:49%;
+    height:200px;
+    object-fit:cover;
+    display:inline;
+    box-shadow:0 4px 2px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+footer{
+    clear: both;
+}
+.primary-btn{
+    clear:both;
+    background-color:#28a745;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-decoration: underline;
+    color: blue;
+    margin-top: 0;
+    
+
+
+}
+.clear
+{
+    clear: both;
+    text-align: center;
+    padding-top:15px;
+}
+ul li{
+    text-align: left;
 }
