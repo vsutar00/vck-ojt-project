@@ -18,7 +18,7 @@ const HomePage = () => {
                     <p>Your journey to excellence starts here.</p>
                     <a className="btn hero-btn" href="/AdmissionPage">Apply Now!</a>
                     
-                </div>
+             </div>
             </div>
         </div>
         </header>

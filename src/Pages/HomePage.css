@@ -31,19 +31,19 @@ h2{
     text-align: center;
     padding: 30px 40px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.5)!important;
+
 }
 .page-container{
 
     position:relative;
-background-image: url("/images/college-banner.png");
-    background-size:cantain;
+background-image: url('/images/college1-banner.png');
+    background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
-    height: 350px;
+    height: 300px;
     width: 200%;
     overflow: hidden;
-    background-color: #000;
+    background-color: #181925;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -100,4 +100,7 @@ footer{
 }
 ul li{
     text-align: left;
+}
+.hero-btn{
+    background-color: #28a745;
 }
