@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 100px;
+    padding: 50px;
     background-color: white;
   
 }
@@ -37,11 +37,11 @@ h2{
 
     position:relative;
 background-image: url("/images/college-banner.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size:cantain;
+    background-position:center;
+    background-repeat:no-repeat;
     height: 350px;
-    width: 100%;
+    width: 200%;
     overflow: hidden;
     background-color: #000;
   border-radius: 10px;
