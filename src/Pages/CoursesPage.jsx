@@ -113,7 +113,7 @@ const CoursesPage = () => {
                 </section>
                 <section className="c-bottom">
                     <h4>Explore detailed syllabi and admission criteria on our Admissions page.</h4>
-                    <button>Inquire About Courses</button>
+                    <a className="btn course-btn" href="/ContactPage">Inquire about page</a>
                 </section>
             </div>
         </>

@@ -10,7 +10,21 @@ body {
     overflow-x: hidden;
 }
 
-    
+ .animated{
+    animation: slideUp 1s ease-out;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+@keyframes slideUp {
+    from {
+      transform: translatey(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translatey(0);
+      opacity: 1;
+    }
+  }   
 
 .other {
     margin-top: 100px;
